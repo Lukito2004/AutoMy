@@ -28,6 +28,8 @@ namespace AutoMyWebsite.Controllers
         private readonly string hey = "hi wtff";
         private readonly IMapper _mapper;
 
+
+        private readonly string xvichamaglakelidze;
         public AccountController(UserManager<Account> userManager, 
             SignInManager<Account> signInManager, IMapper mapper, RoleManager<IdentityRole> roleManager)
         {

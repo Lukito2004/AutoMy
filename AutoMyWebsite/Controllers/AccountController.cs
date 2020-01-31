@@ -30,12 +30,7 @@ namespace AutoMyWebsite.Controllers
         private readonly IMapper _mapper;
 
 
-        private readonly string xvichamaglakelidze;
-        private readonly string xvichamaglakelidze1;
-        private readonly string xvichamaglakelidze2;
-        private readonly string xvichamaglakelidze3;
-        private readonly string xvichamaglakelidze4;
-        private readonly string xvichamaglakelidze5;
+       
 
         public AccountController(UserManager<Account> userManager, 
             SignInManager<Account> signInManager, IMapper mapper, RoleManager<IdentityRole> roleManager)

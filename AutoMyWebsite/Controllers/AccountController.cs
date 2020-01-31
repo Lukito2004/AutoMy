@@ -28,8 +28,6 @@ namespace AutoMyWebsite.Controllers
         private readonly string hey = "hi wtff";
         private readonly string xvich = "hi wtff";
         private string tushenaricodilozungiakvlavdges;
-
-
         private readonly IMapper _mapper;
 
 
